@@ -9,6 +9,20 @@
 <meta property="og:description" content="Curated AI tools directory with free tools, new tools, comparisons, ratings and guides — in English and Hindi." />
 <meta property="og:type" content="website" />
 <link rel="icon" href="data:," />
+<meta name="theme-color" content="#0f766e" />
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="AI Tools" />
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+  });
+}
+</script>
 <title>AI Tools Directory — Find the Right AI Tool for Any Task</title>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"AI Tools Directory","description":"Curated directory of AI tools with comparisons, ratings and guides.","potentialAction":{"@type":"SearchAction","target":"#all-tools","query-input":"required name=search_term_string"}}
