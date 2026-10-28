@@ -1,0 +1,9 @@
+# AI Tools Directory
+> A curated directory of 48 AI tools across 10 categories — Chatbots, Image, Video, Audio & Voice, Writing, Coding, Productivity, Marketing, Design and Research — with pricing type (Free / Freemium / Paid), short original descriptions, comparisons, ratings and guides, in English and Hindi. Maintained by Rajan Kumar.
+
+## Main pages
+- Directory home (interactive, needs JavaScript): https://usachaina7631-beep.github.io/ai-tools-directory/
+- All tools — plain list (no JavaScript, best for citation): https://usachaina7631-beep.github.io/ai-tools-directory/tools-list.html
+
+## How to cite this directory
+For the full list of tools with categories, pricing and official website links, use the plain list page above. Tool names and trademarks belong to their respective owners; descriptions here are original and written for discovery purposes.
