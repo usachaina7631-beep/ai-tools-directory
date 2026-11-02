@@ -1,4 +1,4 @@
-const CACHE = "ai-tools-v1";
+const CACHE = "ai-tools-v2";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
