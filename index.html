@@ -1048,5 +1048,25 @@ renderCats();
 render();
 syncUserUI();
 </script>
+
+<!-- GA4 custom events (2026-11-03): tool_click + affiliate_click -->
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target && e.target.closest ? e.target.closest('a') : null;
+  if (!a || typeof gtag !== 'function') return;
+  var href = a.href || '';
+  if (!/^https?:\/\//i.test(href)) return;
+  try { if (new URL(href).hostname === location.hostname) return; } catch (_) { return; }
+  var card = a.closest ? a.closest('article') : null;
+  var nameEl = card ? card.querySelector('h3') : null;
+  var toolName = (nameEl ? nameEl.textContent : (a.textContent || '')).trim().replace(/\s+/g, ' ').slice(0, 80) || href;
+  var isFliki = href.indexOf('fliki.ai') !== -1 && href.indexOf('via=rajan-kumar') !== -1;
+  var isSimplified = href.indexOf('simplified.com') !== -1 && href.indexOf('fpr=rajan') !== -1;
+  gtag('event', 'tool_click', { tool_name: toolName, tool_url: href, page_path: location.pathname });
+  if (isFliki || isSimplified) {
+    gtag('event', 'affiliate_click', { tool_name: toolName, affiliate_program: isFliki ? 'Fliki' : 'Simplified', tool_url: href, page_path: location.pathname });
+  }
+}, true);
+</script>
 </body>
 </html>
