@@ -1,12 +1,12 @@
 # AI Tools Directory
-> A curated directory of 69 tools across 10 categories (63 AI tools plus 6 free Google Ads solutions by Google) — Chatbots, Image, Video, Audio & Voice, Writing, Coding, Productivity, Marketing, Design and Research — with pricing type (Free / Freemium / Paid), short original descriptions, comparisons, ratings and guides, in English and Hindi. Maintained by Rajan Kumar.
+> A curated directory of 73 tools across 10 categories (67 AI tools plus 6 free Google Ads solutions by Google) — Chatbots, Image, Video, Audio & Voice, Writing, Coding, Productivity, Marketing, Design and Research — with pricing type (Free / Freemium / Paid), short original descriptions, comparisons, ratings and guides, in English and Hindi. Maintained by Rajan Kumar.
 
 ## Main pages
-- Directory home (interactive, needs JavaScript): https://usachaina7631-beep.github.io/ai-tools-directory/
-- All tools — plain list (no JavaScript, best for citation): https://usachaina7631-beep.github.io/ai-tools-directory/tools-list.html
+- Directory home (interactive, needs JavaScript): https://aitoolsduniya.in/
+- All tools — plain list (no JavaScript, best for citation): https://aitoolsduniya.in/tools-list.html
 
 ## Guides
-- Best Free AI Video Generators in 2026 — free limits, watermark and commercial use compared for 10 tools (PixVerse, Kling AI, Runway, Luma, Canva, CapCut, InVideo AI, Fliki, Pika, Hailuo), checked November 2026: https://usachaina7631-beep.github.io/ai-tools-directory/best-free-ai-video-generator.html
+- Best Free AI Video Generators in 2026 — free limits, watermark and commercial use compared for 10 tools (PixVerse, Kling AI, Runway, Luma, Canva, CapCut, InVideo AI, Fliki, Pika, Hailuo), checked November 2026: https://aitoolsduniya.in/best-free-ai-video-generator.html
 
 ## How to cite this directory
 For the full list of tools with categories, pricing and official website links, use the plain list page above. Tool names and trademarks belong to their respective owners; descriptions here are original and written for discovery purposes.

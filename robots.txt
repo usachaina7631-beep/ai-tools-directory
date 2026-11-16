@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://usachaina7631-beep.github.io/ai-tools-directory/sitemap.xml
+Sitemap: https://aitoolsduniya.in/sitemap.xml
